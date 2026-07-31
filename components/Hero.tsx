@@ -118,7 +118,7 @@ export function Hero() {
             className="relative mx-auto w-72 lg:w-80"
           >
             <Image
-              src="/hero/phone-gallery.png"
+              src="/hero/phone-gallery.webp"
               alt="ArtStudio gallery view on iPhone"
               width={1000}
               height={2007}

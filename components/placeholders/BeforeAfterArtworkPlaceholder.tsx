@@ -149,7 +149,7 @@ function Half({ variant }: { variant: "before" | "after" }) {
   return (
     <div className="absolute inset-0 overflow-hidden">
       <Image
-        src={variant === "before" ? "/color/before.png" : "/color/after.png"}
+        src={variant === "before" ? "/color/before.jpg" : "/color/after.jpg"}
         alt={
           variant === "before"
             ? "Artwork before color restoration"
