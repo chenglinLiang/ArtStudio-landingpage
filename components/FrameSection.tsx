@@ -53,9 +53,9 @@ export function FrameSection() {
                 <p className="mt-1 font-sans text-sm text-ink-muted">
                   {frame.description}
                 </p>
-                <p className="mt-2 font-sans text-[0.62rem] uppercase tracking-[0.14em] text-ink-muted/60">
+                {/* <p className="mt-2 font-sans text-[0.62rem] uppercase tracking-[0.14em] text-ink-muted/60">
                   {frame.realId}
-                </p>
+                </p> */}
               </div>
             </motion.article>
           ))}
