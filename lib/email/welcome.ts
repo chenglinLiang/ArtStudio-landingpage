@@ -21,10 +21,10 @@ const C = {
 };
 
 const SERIF =
-  '"Playfair Display", "Times New Roman", Georgia, "STSong", serif';
+  "'Playfair Display', 'Times New Roman', Georgia, 'STSong', serif";
 
 const SANS =
-  '"DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Helvetica Neue", Arial, sans-serif';
+  "'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Helvetica Neue', Arial, sans-serif";
 
 
 const STAGE = [
