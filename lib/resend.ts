@@ -21,6 +21,6 @@ export function getResend(): Resend | null {
 /** Verified sender, falls back to Resend's shared onboarding address. */
 export function getFromEmail(): string {
   return (
-    process.env.RESEND_FROM_EMAIL ?? "ArtStudio <onboarding@resend.dev>"
+    process.env.RESEND_FROM_EMAIL ?? "Artfolio <hello@mail.laymap.me>"
   );
 }

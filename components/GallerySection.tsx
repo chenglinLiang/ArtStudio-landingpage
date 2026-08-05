@@ -27,7 +27,7 @@ export function GallerySection() {
           <div className="overflow-hidden border border-line shadow-[0_40px_90px_-40px_rgba(17,17,17,0.45)]">
             <Image
               src="/gallery/museum.webp"
-              alt="ArtStudio mirrors a physical gallery on your phone"
+              alt="Artfolio mirrors a physical gallery on your phone"
               width={2304}
               height={1286}
               sizes="(max-width: 1024px) 100vw, 1152px"

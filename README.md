@@ -1,6 +1,6 @@
-# ArtStudio — Landing Page
+# Artfolio — Landing Page
 
-A premium, editorial landing page for **ArtStudio**, an iOS app that turns
+A premium, editorial landing page for **Artfolio**, an iOS app that turns
 physical artwork into a beautiful digital gallery. Apple/MoMA-inspired — calm,
 typographic, cinematic — built with Next.js 15, Tailwind CSS v4, and Framer
 Motion.
@@ -187,4 +187,4 @@ npm run build
 
 ---
 
-© ArtStudio. Placeholder artwork only — replace before launch.
+© Artfolio. Placeholder artwork only — replace before launch.

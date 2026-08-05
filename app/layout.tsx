@@ -20,15 +20,15 @@ const URL_BASE = "https://artstudio.app";
 export const metadata: Metadata = {
   metadataBase: new URL(URL_BASE),
   title: {
-    default: "ArtStudio — Your art deserves a gallery.",
-    template: "%s · ArtStudio",
+    default: "Artfolio — Your art deserves a gallery.",
+    template: "%s · Artfolio",
   },
   description:
-    "Capture, preserve, frame and showcase your artwork in a beautiful digital space. ArtStudio turns physical art into a personal digital museum.",
-  applicationName: "ArtStudio",
-  authors: [{ name: "ArtStudio" }],
+    "Capture, preserve, frame and showcase your artwork in a beautiful digital space. Artfolio turns physical art into a personal digital museum.",
+  applicationName: "Artfolio",
+  authors: [{ name: "Artfolio" }],
   keywords: [
-    "ArtStudio",
+    "Artfolio",
     "digital gallery",
     "art app",
     "artists",
@@ -40,16 +40,16 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: URL_BASE,
-    siteName: "ArtStudio",
-    title: "ArtStudio — Your art deserves a gallery.",
+    siteName: "Artfolio",
+    title: "Artfolio — Your art deserves a gallery.",
     description:
       "Capture, preserve, frame and showcase your artwork in a beautiful digital space.",
     // TODO: add a real OG image at /public/og.png (1200×630) and uncomment:
-    // images: [{ url: "/og.png", width: 1200, height: 630, alt: "ArtStudio" }],
+    // images: [{ url: "/og.png", width: 1200, height: 630, alt: "Artfolio" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ArtStudio — Your art deserves a gallery.",
+    title: "Artfolio — Your art deserves a gallery.",
     description:
       "Capture, preserve, frame and showcase your artwork in a beautiful digital space.",
   },

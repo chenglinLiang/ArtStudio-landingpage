@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /*
-  ArtStudio — design tokens
+  Artfolio — design tokens
   Tailwind CSS v4 (CSS-first theming).
   Every --color-* token below generates matching utilities:
     bg-paper, text-ink, border-line, text-ink-muted, bg-canvas, text-gold, ...

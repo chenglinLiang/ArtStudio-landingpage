@@ -1,4 +1,4 @@
--- ArtStudio — early access waitlist
+-- Artfolio — early access waitlist
 -- Run this in the Supabase SQL editor (Dashboard → SQL → New query).
 -- Safe to re-run (all statements are idempotent).
 

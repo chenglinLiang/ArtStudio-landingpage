@@ -1,8 +1,8 @@
 /**
- * Central content + configuration for the ArtStudio landing page.
+ * Central content + configuration for the Artfolio landing page.
  *
  * NOTE — product accuracy:
- * The shipping iOS app ("ArtStudio", bundle com.chenglinliang.ArtStudio) has a
+ * The shipping iOS app ("Artfolio", bundle com.chenglinliang.ArtStudio) has a
  * frame catalog of 3 categories (Wood / Gold / Minimal) totalling 19 frames,
  * defined in the app at Resources/FrameAssets.bundle/Frames/catalog.json.
  * The marketing labels below follow the landing-page brief (Oak / Walnut /
@@ -11,7 +11,7 @@
  */
 
 export const site = {
-  name: "ArtStudio",
+  name: "Artfolio",
   /** One-line promise used in nav, hero, footer. */
   promise: "Your art deserves a gallery.",
   description:
@@ -94,8 +94,8 @@ export const stages: Stage[] = [
 export type FrameStyle = {
   name: string;
   description: string;
-  /** Maps to the real ArtStudio frame id (catalog.json) for asset replacement. */
-  realId: string;
+  /** Maps to the real Artfolio frame id (catalog.json) for asset replacement. */
+  // realId: string;
   /** Path (under /public) to the frame sample photo. */
   image: string;
   /** CSS class from globals.css that renders the frame finish. */
@@ -104,30 +104,30 @@ export type FrameStyle = {
 
 export const frames: FrameStyle[] = [
   {
-    name: "Oak",
-    description: "Warm, natural grain.",
-    realId: "wood.001 — 暖调橡木 (Warm-tone Oak)",
+    name: "Pale Oak",
+    description: "Light blonde timber, subtle soft natural grain.",
+    // realId: "wood.001 — 暖调橡木 (Warm-tone Oak)",
     image: "/frames/01.jpg",
     frameClass: "frame-oak",
   },
   {
-    name: "Walnut",
-    description: "Deep, rich tone.",
-    realId: "wood.011 — 深胡桃木 (Deep Walnut)",
+    name: "Vintage Gild",
+    description: "Light blonde timber, subtle soft natural grain.",
+    // realId: "wood.011 — 深胡桃木 (Deep Walnut)",
     image: "/frames/02.jpg",
     frameClass: "frame-walnut",
   },
   {
-    name: "Gold Museum",
-    description: "Classical gold leaf.",
-    realId: "gold.002 — 古典金箔 (Classical Gold Leaf)",
+    name: "Black Slim",
+    description: "Minimal flat black metal, thin modern profile.",
+    // realId: "gold.002 — 古典金箔 (Classical Gold Leaf)",
     image: "/frames/03.jpg",
     frameClass: "frame-gold",
   },
   {
-    name: "Black Minimal",
-    description: "Quiet, modern line.",
-    realId: "minimal.052 — 细线边框 (Thin-line Frame)",
+    name: "Black Antique",
+    description: "Deep matte black sculpted wood, vintage layered moulding.",
+    // realId: "minimal.052 — 细线边框 (Thin-line Frame)",
     image: "/frames/04.jpg",
     frameClass: "frame-black",
   },
@@ -186,6 +186,6 @@ export const colorCopy = {
   title: "Every color has a story.",
   body: [
     "Artists spend countless hours mixing color. A digital copy should respect the original work — not flatten it.",
-    "ArtStudio recovers true color and detail, gently and on your terms, so the painting reads the way you painted it.",
+    "Artfolio recovers true color and detail, gently and on your terms, so the painting reads the way you painted it.",
   ],
 };

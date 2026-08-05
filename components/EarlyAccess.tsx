@@ -112,7 +112,7 @@ export function EarlyAccess() {
             <div className="mx-auto mt-10 max-w-md">
               <p className="font-sans text-base text-ink-soft">
                 You&apos;re on the list. We&apos;ll write to{" "}
-                <span className="text-ink">{submitted}</span> when ArtStudio is
+                <span className="text-ink">{submitted}</span> when Artfolio is
                 ready.
               </p>
               <button

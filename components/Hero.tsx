@@ -119,7 +119,7 @@ export function Hero() {
           >
             <Image
               src="/hero/phone-gallery.webp"
-              alt="ArtStudio gallery view on iPhone"
+              alt="Artfolio gallery view on iPhone"
               width={1000}
               height={2007}
               priority

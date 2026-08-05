@@ -41,16 +41,16 @@ export function Footer() {
           <div className="flex gap-3">
             <SocialIcon
               href={site.social.instagram}
-              label="ArtStudio on Instagram"
+              label="Artfolio on Instagram"
             >
               <Instagram size={18} strokeWidth={1.5} />
             </SocialIcon>
-            <SocialIcon href={site.social.twitter} label="ArtStudio on X / Twitter">
+            <SocialIcon href={site.social.twitter} label="Artfolio on X / Twitter">
               <Twitter size={18} strokeWidth={1.5} />
             </SocialIcon>
             <SocialIcon
               href={`mailto:${site.contactEmail}`}
-              label="Email ArtStudio"
+              label="Email Artfolio"
             >
               <Mail size={18} strokeWidth={1.5} />
             </SocialIcon>
